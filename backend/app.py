@@ -73,5 +73,5 @@ def summarize():
         return jsonify({'summary': "No text could be extracted."})
 
 
-if __name__ == '__main__':
+if ___name___ == '___main___':
     app.run(debug=True, port=5000)  # Or another port
